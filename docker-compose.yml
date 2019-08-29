@@ -1,0 +1,8 @@
+version: "3"
+services:
+  react-front:
+    image: react-front:latest
+    container_name: react-front
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
